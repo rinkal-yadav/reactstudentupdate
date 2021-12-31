@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 20px 10px;
+    background: linear-gradient(180deg, skyblue,pink,white); 
+    height: 600px;
+    /* overflow: hidden;    */
+    
+}
+
+.Header{
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
+    display: flex;
+    background-color: rgb(32, 207, 76);
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+
+.color{
+    text-decoration: none;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.table-main{
+    background-color: tomato;
+    border-radius: 35px;
+    margin-top: 20px;
+    margin-left: 235px;
+}
+
+.table-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.add-student-btn{
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: brown;
+    font-weight: bold;
+    font-size: 20px;
+
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.add-form-btn{
+    margin-left: 55%;
+
+}
+
+.update-student-btn{
+
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 35px;
+    background-color: rgb(7, 165, 42);
+    font-weight: bold;
+    font-size: 20px;
+
+
+}
