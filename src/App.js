@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes , useParams } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {StudentProvider} from './Components/StudentContext';
 import Header from './Components/Header';
 import './Components/style.css'
