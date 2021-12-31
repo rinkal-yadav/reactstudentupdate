@@ -13,7 +13,7 @@ import {StudentContext} from './StudentContext';
 
 
 function Student() {
-  const [rows,setrows] = useContext(StudentContext);
+  const [rows] = useContext(StudentContext);
 
 
   return (
