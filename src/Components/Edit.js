@@ -23,16 +23,15 @@ export default function Edit() {
 
     useEffect(() => {
       // console.log(studentId);
-      rows.map((prevState) => {
+      rows.forEach((prevState) => {
         if (prevState.id === studentId) {
         // console.log(prevState.id);
-
           setaddstudent({
             name: prevState.name,
             age: prevState.age,
             batch: prevState.batch,
             course: prevState.course,
-          });
+          })
         }
       });
     }, []);
