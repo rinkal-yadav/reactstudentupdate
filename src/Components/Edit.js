@@ -34,7 +34,7 @@ export default function Edit() {
           })
         }
       });
-    }, []);
+    }, [studentId,rows]);
 
     const HandleSubmit=()=>{
       setrows((prevState)=>
