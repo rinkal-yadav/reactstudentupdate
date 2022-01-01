@@ -18,14 +18,14 @@ export default function Edit() {
         let value=e.target.value
 
         setaddstudent({ ...addstudent , [name]: value})
-        console.log(addstudent);
+        // console.log(addstudent);
     }
 
     useEffect(() => {
-      console.log(studentId);
+      // console.log(studentId);
       rows.map((prevState) => {
         if (prevState.id === studentId) {
-        console.log(prevState.id);
+        // console.log(prevState.id);
 
           setaddstudent({
             name: prevState.name,
