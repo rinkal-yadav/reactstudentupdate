@@ -25,6 +25,12 @@ export default function AddStudent() {
     let inputid = ((rows.length)+1) 
 
     const handleSubmit=(e)=>{
+
+      if(!((addstudent.name)&&(addstudent.age)&&(addstudent.course)&&(addstudent.batch))){
+        alert("All fields are mandatory")
+        return
+     }
+
         let storeinput={...addstudent, id:inputid.toString() }
 
         setrows([...rows,storeinput])
