@@ -56,10 +56,10 @@ export default function AddStudent() {
       noValidate
       autoComplete="off"
     >
-      <TextField id="name" name='name' label="Name" variant="outlined" value={addstudent.name} onChange={inputHandle}/>
-      <TextField id="age" name='age' label="Age" variant="outlined" value={addstudent.age} onChange={inputHandle}/>
-      <TextField id="course" name='course' label="Course" variant="outlined" value={addstudent.course} onChange={inputHandle}/>
-      <TextField id="batch" name='batch' label="Batch" variant="outlined" value={addstudent.batch} onChange={inputHandle}/>
+      <TextField required id="name" name='name' label="Name" variant="outlined" value={addstudent.name} onChange={inputHandle}/>
+      <TextField required id="age" name='age' label="Age" variant="outlined" value={addstudent.age} onChange={inputHandle}/>
+      <TextField required id="course" name='course' label="Course" variant="outlined" value={addstudent.course} onChange={inputHandle}/>
+      <TextField required id="batch" name='batch' label="Batch" variant="outlined" value={addstudent.batch} onChange={inputHandle}/>
     </Box>
 
      <button onClick={handleSubmit} className="add-student-btn add-form-btn" >Add Student</button> 
